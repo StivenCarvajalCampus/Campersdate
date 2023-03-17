@@ -31,6 +31,7 @@
         <legend>Datos de los campers CAMPUS:</legend>
         <form id="myFormularioCampers">
             <select name="sedeCampers"></select><br>
+            <select name="selector_team"></select><br>
             <input type="text" name="nombre" placeholder="Ingrese el nombre del camper"><br>
             <input type="tel" name="telefono" placeholder="Ingrese el telefono del camper"><br>
             <input type="email" name="emailcamper" placeholder="Ingrese su correo"><br>
@@ -51,6 +52,32 @@
             <input type="text" name="nombre" placeholder="Ingrese el nombre del camper"><br>
             <input type="tel" name="telefono" placeholder="Ingrese el telefono del camper"><br>
             <input type="email" name="email" placeholder="Ingrese su correo">
+            <input type="submit" value="Guardar">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Niveles CAMPUS:</legend>
+        <form id="myFormularioNiveles">
+            <select name="sedeNiveles"></select><br>
+            <input type="text" name="prerequisito" placeholder="Ingrese el prerequisito"><br>
+            <input type="text" name="tecnologia" placeholder="Ingrese la tecnologia pertenece"><br><p>
+                <label>Electiva
+                <input name="Niveles" type="radio" value="Electiva" />
+                </label>
+                <label>Obligatoria
+                <input name="Niveles" type="radio" value="Obligatoria" />
+                </label>
+                </p>
+            <input type="submit" value="Guardar">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Roadmap CAMPUS:</legend>
+        <form id="myFormularioRoadmap">
+            <select name="sedeRoadmap"></select><br>
+            <input type="text" name="creditos" placeholder="Ingrese el N° de creditos"><br>
+            <input type="text" name="año" placeholder="Ingrese el año"><br><p>
+                <input type="text" name="asignaturas" placeholder="Ingrese el N° de asignaturas"><br>
             <input type="submit" value="Guardar">
         </form>
     </fieldset>
